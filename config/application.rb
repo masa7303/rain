@@ -13,6 +13,6 @@ module Weather
 
     # 追加
     config.time_zone = 'Tokyo'
-    config.i18n.fefault_locale = :ja
+    config.i18n.default_locale = :ja
   end
 end
