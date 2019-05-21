@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: weather_production
+  adapter: postgresql
+  database: mydatabase
   username: weather
   password: <%= ENV['WEATHER_DATABASE_PASSWORD'] %>
